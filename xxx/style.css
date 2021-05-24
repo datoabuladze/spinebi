@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 190px;
+    font-family:Dosis;
+
+}
+.menu .logo {
+    font-size: 30px;
+    color: #3D566E;
+}
+.bar ul li {
+    list-style: none;
+    display: inline-flex;
+    padding: 0 10px;
+}
+.bar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #3D566E;
+    
+}
+.bar ul li a:hover{
+    color: #00bba7;
+    
+}
+.shua {
+    background-image: url(img/homeimg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+.shua h1{
+    padding-top: 100px;
+    color: white;
+    font-size: 75px;
+    line-height: 90px;
+    font-family:Dosis;
+  
+    
+    
+}
+.shua h2{
+    padding-top:50px;
+    color: white;
+    font-size: 75px;
+    line-height: 90px;
+   
+    
+}
+.mm {
+    width:70% ;
+    margin-top: 8%;
+    padding-top: 4%;
+    transform: translate(20%);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.font .fas {
+    background-color: #00bba7;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 4px;
+    text-align: center;
+    height: 55px;
+    width: 55px;
+    line-height: 60px;
+    
+    font-size: 25px;
+   
+   
+}
+.font h3{
+    font-family:Dosis;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #444;
+}
+.font p{
+    padding-top: 10px;
+    color: #777;
+    font-size: 16px;
+    font-weight: 300px;
+}
+.lat .xaz{
+    display: inline-flex;
+    padding-top: 30px;
+    
+    justify-content: center;
+}
+.lat h5{
+    margin-top: 3%;
+    font-size: 25px;
+    color: #444;
+}
+.xaz::before{
+   
+    content: "";
+    height: 1px;
+    width: 15%;
+    margin-top: 9px;
+    left: 32%;
+    background-color: #e4e4e4;
+    position:absolute;
+}
+.xaz::after{
+    content: "";
+    height: 1px;
+    width: 15%;
+    margin-top: 9px;
+    left: 53%;
+    background-color: #e4e4e4;
+    position:absolute;
+}
+.xaz .fas{
+    color: #e4e4e4;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.img .ddd{
+    width: 294px;
+    height: 422px;
+    border: 1px solid #e4e4e4;
+    margin: 0 30px;
+    
+}
+.ddd img{
+    margin-top: 10px;
+    width: 263px;
+    height: 300px;
+
+}
+.ddd h6{
+    padding-top: 15px;
+    font-size: 17px;
+    color:#333;
+    border-bottom: double medium #eee;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ddd span{
+    text-align: center;
+    color: #444;
+}
+fieldset{
+    width: 294px;
+    height: 314px;
+    align-items: center;
+    text-align: center;
+    margin:0 30px;
+    border: 1px solid #e4e4e4;
+}
+legend{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.sa {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.txt {
+    
+    background-color: #00bba7;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 13px 39px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    display: inline-block;
+    color: #fff;
+    
+}
+.sa .fas{
+    font-size: 40px;
+    color: #00bba7;
+    padding:0 10px
+}
+.sa .kkk{
+    color: #444;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding:0 ;
+}
+.sa .ppp{
+    font-weight: 300;
+    font-size: 16px;
+    color: #777;
+    line-height: 1.3;
+    text-align: left;
+    padding:0 10px;
+    transition: 0.5s;
+    
+}
+.sa .aa {
+    
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    color: #337ab7;
+}
+.mak {
+    text-align: center;
+    align-items: center;
+}
+.mak .awes{
+    font-size: 28px;
+    color:#444;
+    padding:0;
+   
+    
+}
+.mak .lll{
+    border-radius: 50%;
+    max-width: 100px;
+    margin:20px 0px;
+}
+.mak p{
+    text-align: center;
+    align-items: center;
+    font-size: 19px;
+    color: #666;
+   max-width: 600px;
+   line-height: 30px;
+    
+}
+.mak .xxxa{
+ 
+    display: flex;
+    justify-content: center;
+}
+.mak .fas{
+    color: #666;
+    margin-top: 20px;
+}
+section{
+    padding:50px 370px ;
+    margin-top: 50px;
+    background-color: #00bba7;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    
+}
+section .mo{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 300;
+    
+}
+section .mk{
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    padding:10px 20px;
+    
+}
+.dasa{
+    margin: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #222;
+}
